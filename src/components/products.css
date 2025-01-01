@@ -1,0 +1,17 @@
+.card img{
+    height:200px ;
+    padding: 5px;
+}
+
+
+.card-title, .card-text {
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;    /* Hide overflowing text */
+    text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+    display: block;      /* Ensure proper layout */
+    max-width: 100%;     /* Set a width to control truncation */
+  }
+  
+  .img1 {
+    height: 300px;
+  }
